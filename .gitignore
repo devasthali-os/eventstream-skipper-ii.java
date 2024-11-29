@@ -2,3 +2,5 @@ target/
 .idea/
 *.iml
 jmeter.log
+.gradle/
+build/

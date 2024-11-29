@@ -1,6 +1,6 @@
 package com.eventstream.googlepubsub.consumer;
 
-import com.eventstream.googlepubsub.consumer.api.Event;
+import com.eventstream.api.Event;
 
 public class MyEventListener extends GcpPubSubEventListener {
 

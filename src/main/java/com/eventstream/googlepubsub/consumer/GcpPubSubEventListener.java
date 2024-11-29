@@ -1,6 +1,6 @@
 package com.eventstream.googlepubsub.consumer;
 
-import com.eventstream.googlepubsub.consumer.api.Event;
+import com.eventstream.api.Event;
 import com.google.cloud.pubsub.v1.AckReplyConsumer;
 import com.google.cloud.pubsub.v1.MessageReceiver;
 import com.google.pubsub.v1.PubsubMessage;

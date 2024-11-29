@@ -1,10 +1,10 @@
-eventstream-skipper (googlepubsub)
--------------------
+Eventstream with Google PubSub/ RabbitMQ
+----------------------------------------
 
-- Java pipeline to stream events to Google Pub sub using Spring, PubSub SDK
+- Java pipeline to stream events to Google Pub sub/ RabbitMQ using Spring, PubSub SDK
 - JMeter perf is included in 
 
-eventstream-googlepubsub
+eventstream
 -----------------------
 
 ```
@@ -17,6 +17,7 @@ publisher ~>  | 1 | 2 | 3 | 4 | 5 | ........| n |    ~>  subscription ~> Subscri
 Publisher
 ---------
 
+For Google PubSub:
 - create stream (`topic`)
 - create IAM role with write access and use it in publisher
 ```bash
@@ -65,6 +66,7 @@ serviceusage.services.list
 Subscriber
 -----------
 
+For Google PubSub:
 - create subscription
 - use `subscriptionId` in consumer
 - subscriber - https://github.com/duwamish-os/eventstream-skipper-ii.java/blob/master/src/main/java/com/eventstream/googlepubsub/consumer/GooglePubsubConsumer.java

@@ -1,4 +1,4 @@
-package com.eventstream.googlepubsub.consumer.api;
+package com.eventstream.api;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
